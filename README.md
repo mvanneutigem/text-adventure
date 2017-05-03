@@ -1,29 +1,15 @@
-# README #
+Dirty Laundry - crime text adventure
+------------------------------------------------------
+currently this game is still in development and the story ends upon completion of chapter 2
 
-This README would normally document whatever steps are necessary to get your application up and running.
+------------------------------------------------------
+you play this game by typing commands into the console
+look at things to get a better description or spot evidence
+talk to people to get more information, people may tell you different things at different points in the story
+use your phone to fast travel between locations
 
-### What is this repository for? ###
+if you get stuck try talking to people, looking at things or going new places.
+you can also scroll back up in the console to read back if you missed something.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+------------------------------------------------------
+CURRENT VERSION ONLY WORKS ON WINDOWS
