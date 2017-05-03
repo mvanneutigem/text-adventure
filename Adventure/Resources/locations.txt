@@ -1,0 +1,18 @@
+your office|office|a fairly small space, on one side is your desk with in front if a creaky old chair.when you sit at your desk you can look at the whiteboard on the wall used to gather evidence on. on the right side is a door.|-1|1|-1|-1
+the office hallway|hallway|this hallway connects your office to the rest of the building, on the left there is a solid brick wall, in front of you is a door, on the right there is a stairwell.|-1|4|10|0
+the morgue|morgue|this is the place where the post mortem happens. Dr. Dalton seems to be permanently present here staring at his computer screen. in the middle is a large metal table with next to it a bunch of instruments laid out. |-1|-1|-1|13
+the lab|lab|this is the place to get samples tested, assistant Ryan may be able to help you out.|-1|-1|-1|12
+the office reception|stairwell|this leads the way from your office to the outside world, there’s some strict security going on but you can just flash your badge and get through.|-1|-1|11|1
+the upstate Hotel|hotel|a fairly expensive hotel and also the scene of the crime, you can see that a few people seemed to have gathered around at the reception.|-1|-1|6|-1
+the reception|reception|on the inside it looks just as impressive as the outside. on the right side is the reception, a boy of about 20 seems to be playing on his phone at the desk. in front of you are the elevators.|-1|-1|7|5
+the elevator|elevator|a small elevator, it could fit 8 people according to the sign but you don't think you would like to be in here with that many. next to the door is a panel signaling floors B - 10, you only have acces to the floor of the crime scene.|-1|-1|8|6
+the basement|basement|this is the floor where they found the body, on the right side there's two doors, on the left side there's one closed door it has an emergency exit sign, and the other one is open with people going in and out, that must be the crime scene though.|-1|-1|9|7
+laundry room|crime|this is the crimescene, against the wall opposite you are multiple industry sized laundry machines. In the upperleft corner is a security camera.|-1|-1|-1|8
+the office bathroom|bathroom|this is the bathroom at your office, conveniently placed opposite your office, and also pretty much the same size.|-1|-1|-1|1
+outside your office|outside|Oh Man it’s so bright out here, the sky is so blue and everything is so intense. This is a big city so walking between spots isn’t really an option. you’d better just get uber to your next location.|-1|-1|-1|4
+outside the lab|outside|there’s a park nearby, you can see kids playing. No time for chilling though, you’re on a case!|-1|-1|-1|3
+outside the morgue|outside|Why is the weather always so bad here? |-1|-1|-1|2
+Teri Purcell's Office|purcells office|A nice and light office: family pictures, awards from various charities on her desk, it seems Purcell was a wonderful person.|-1|-1|-1|-1
+Teri Purcell's Home|purcells home|A nice large home; pretty standard decorating: a couch with a large flatscreen and an open plan kitchen with a large countertop, husband Oliver and teenage daughter Carly life here.|-1|-1|-1|16
+Outside purcell's home|outside|How odd a neighbor is trimming her bushes while it’s winter...|-1|-1|15|-1
+Geoffrey silvers office|silvers office|A very fancy office, silver doesn't seem to happy that you're here.|-1|-1|-1|-1

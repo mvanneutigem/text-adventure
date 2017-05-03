@@ -1,0 +1,28 @@
+your phone|phone|you have a few apps on your phone that you can use: outlook, check your latest e-mails; google maps, check your locations and book an uber.|0|
+the whiteboard|whiteboard|this is where you gather your evidence, you can hang pictures of suspects and other things here to look at later.|1|0|
+your desk|desk|on your desk is a picture of your family, it's also where your old rusty computer is at, you never actually use it though because even your phone can do better.|1|0|
+your chair|chair|old dusty and eery looking, it looks quite lost and lonely as it never get's used.|1|0|
+the door|door|this is the door to the office hallway|1|0|
+your computer|computer|this is a very old computer, you'd be better of using your phone.|1|0|
+dalton's computer|computer|a very high tech looking computer, on the screen you can see pictures of what seem to be test results... you're not sure and dr. Dalton doesn't like it when you're looking at his screen.|1|2|
+the metal table|table|this is where the body gets layed out and dr Dalton does the post mortem.|1|2|
+metal instruments|instrument|a bunch of knifes and other metal tools used to cut open the body.|1|2|
+knife|knife|That is a knife, stop looking at it.|2|2|3|
+dr Dalton|dalton|a fairly old man, with a balding head.|1|2|
+assistant Ryan|ryan|fresh out of college and by far to excited for his own good.|1|3|
+security officer|security|A buff looking dude, he's probably about 6ft if not more and for some reason always wears sunglasses even inside. He's looking at you now, maybe you should stop starign at him...|1|4|
+the boy|boy|I think he's playing pokemon|1|6|
+laundry machine|machine|This is where the victim was found.|1|9|
+security camera|camera|How lucky, a security camera!, it doesn't seem to be plugged in though someone must have disabled it on purpose...|1|9|
+the body|body|A female, very pale, no traces of blood to be found though.|1|9|
+a fountain pen|pen|it's snapped in half but there's no traces of ink... strange...|1|9|
+a white bedsheet|sheet|A spotless white bedsheet.|1|9|
+oliver(purcells husband)|oliver|A tired looking man, he has a bit of an accent... I wonder where he's from.|1|15|
+carly|carly|Purcells daughter, I can't imagine what she's going through|1|15|
+purcells neighbour|neighbour|She keeps eyeing you, maybe you should talk to her|1|16|
+purcell's desk|desk|A very tidy desk, purcell must have been an organized woman|1|14|
+blood stain|stain|It appears to be blood, maybe it was Purcells...|1|14|
+couch|couch|The couch seems to have been used as a bed lately, maybe I talk to oliver again...|1|15|
+the kitchen countertop|counter|a nice countertop, high quality stone was used. A university letter directed to carly lies in the corner, maybe I should talk to carly about it...|1|15|
+26license plate picture|plate|A picture of a license plate from a man that visited purcell's home.|1|16|
+Geoffrey Silver|silver|An older man, with a vaguely slavic accent in a nice suit.|1|17|

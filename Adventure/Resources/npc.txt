@@ -1,0 +1,26 @@
+name|dalton
+0|hello, what can I help you with?
+1|Ah there you are!I'd been meaning to give you my preliminary report.The victims name is Teri Purcell. It seems that she died of blunt force trauma to the head.
+2|Autopsy is not ready yet I'm afraid.
+-1|I'm afraid I can't help you with that.
+name|ryan
+0|hey, what's up?
+1|duude, what a weird case right? a woman found in a laundry machine.
+2|duude, what a weird case right? a woman found in a laundry machine.
+-1|No can do.
+name|oliver
+0|I don't understand, who would do something like this, she had no enemies!
+1|I was sleeping on the couch because of my insomnia, not because I lost my job if that's what you think...
+-1|Leave.
+name|carly
+0|how could they? who would possibly want to hurt my mom???
+1|I got accepted to michigan state university, my mom didn't want me to go though. I won't go now.
+-1|Go away
+name|neighbour
+0|Hmm... I wonder what's going on inside...
+1|Can you believe it, well she got what was coming to her anyways! Teri was having an affair, a certain handsome man would drop by when oliver wasn’t there, I even took pictures of the man and the license plate of his car.
+-1|Leave.
+name|silver
+0|You are not supposed to be here yet.
+1|I can't believe someone would hurt her. I administer a charity that helps dismantle unexploded land mines. purcell was heavily involved in the charity work but I never had any improper relation with her, oliver is a mutual friend! Regardless I was having dinner with friends the night of the murder, whose names I can provide.
+-1|Leave.

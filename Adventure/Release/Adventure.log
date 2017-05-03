@@ -1,0 +1,11 @@
+﻿  Chapter1.cpp
+  Chapter2.cpp
+  Game.cpp
+  Phone.cpp
+  Generating code
+  7 of 999 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Adventure.vcxproj -> C:\Users\Marieke\Documents\DAE\semester 4\programming 4\week1\TextAdventure\Adventure\Release\Adventure.exe
+  Adventure.vcxproj -> C:\Users\Marieke\Documents\DAE\semester 4\programming 4\week1\TextAdventure\Adventure\Release\Adventure.pdb (Full PDB)
