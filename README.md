@@ -1,6 +1,5 @@
 Dirty Laundry - crime text adventure
-------------------------------------------------------
-currently this game is still in development and the story ends upon completion of chapter 2
+video playthrough: https://vimeo.com/220612469
 
 ------------------------------------------------------
 you play this game by typing commands into the console
