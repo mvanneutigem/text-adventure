@@ -31,6 +31,8 @@ public:
 	const std::vector<word>& getNouns() const;
 	const std::vector<NPC>& getNPCs() const;
 
+	void Destroy();
+
 private:
 	std::vector<Item*> m_Items;
 	std::vector<NPC> m_NPCs;

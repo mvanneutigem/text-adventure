@@ -8,6 +8,8 @@ StateMachine::StateMachine()
 
 StateMachine::~StateMachine()
 {
+	//delete m_State;
+	//m_State = nullptr;
 }
 
 void StateMachine::ChangeState(State* s)
@@ -16,8 +18,9 @@ void StateMachine::ChangeState(State* s)
 	{
 		m_State->Exit();
 	}
+
+	s->Enter();
 	m_State = s;
-	m_State->Enter();
 }
 
 State* StateMachine::GetCurrentState() const

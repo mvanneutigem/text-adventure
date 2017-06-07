@@ -3,6 +3,8 @@
 #include "Game.h"
 #include "Container.h"
 #include "Chapter3.h"
+#include "Chapter1.h"
+#include "StateMachine.h"
 
 
 Chapter2::Chapter2()
@@ -16,14 +18,13 @@ Chapter2::~Chapter2()
 
 void Chapter2::Enter()
 {
-
 }
 
-void Chapter2::Update(FileReader m_Reader)
+void Chapter2::Update(FileReader& m_Reader)
 {
 	if (m_ReceivedCall && m_FoundBloodstain)
 	{
-		auto CH3 = new Chapter3();
+		Chapter3* CH3 = new Chapter3();
 		Game::m_statemachine->ChangeState(CH3);
 	}
 
@@ -53,7 +54,7 @@ void Chapter2::Update(FileReader m_Reader)
 		SetConsoleTextAttribute(Helpers::m_hdstout, FOREGROUND_BLUE | FOREGROUND_GREEN);
 		Helpers::PrintSlowly("Brock (your boss): ");
 		SetConsoleTextAttribute(Helpers::m_hdstout, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED);
-		Helpers::PrintSlowly("Hey " + Helpers::m_Name + ", we got a new lead!\nPurcell banned a series of prostitutes who frequented the hotel and later receives anonymous death threats from their pimps.\nBut I made a trip to vice and turns out Purcell was a facilitator for their work at the hotel,\nshe even sabotaged the cameras in the basement giving the girls safe access in and out of the hotel,\n the strange part is that she never took a cut of their earnings; she was basically a volunteer. \n");
+		Helpers::PrintSlowly("Hey " + Helpers::m_Name + ", we got a new lead!\nPurcell banned a series of prostitutes who frequented the hotel and later receives anonymous death threats from their pimps.\nBut I made a trip to vice and turns out Purcell was a facilitator for their work at the hotel,\nshe even sabotaged the cameras in the basement giving the girls safe access in and out of the hotel,\n the strange part is that she never took a cut of their earnings; she was basically a volunteer.\n I think you should go back to her office, maybe you missed something? you've got a warrant now. \n");
 		m_ReceivedCall = true;
 	}
 

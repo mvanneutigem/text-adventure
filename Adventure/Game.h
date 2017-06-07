@@ -1,8 +1,10 @@
 #pragma once
 #include <vector>
-#include "Location.h"
+#include "FileReader.h"
 #include "Parser.h"
-#include "StateMachine.h"
+
+class Location;
+class StateMachine;
 
 class Game
 {
@@ -18,9 +20,10 @@ public:
 	static int m_TalkID;
 	static StateMachine* m_statemachine;
 	static int m_ItemID;
+	FileReader m_Reader;
 
 private:
-	FileReader m_Reader;
+	
 	Parser parser;
 
 	int m_LastLocationID = -1;

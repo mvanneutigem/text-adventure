@@ -24,5 +24,8 @@ purcell's desk|desk|A very tidy desk, purcell must have been an organized woman|
 blood stain|stain|It appears to be blood, maybe it was Purcells...|1|14|
 couch|couch|The couch seems to have been used as a bed lately, maybe I talk to oliver again...|1|15|
 the kitchen countertop|counter|a nice countertop, high quality stone was used. A university letter directed to carly lies in the corner, maybe I should talk to carly about it...|1|15|
-26license plate picture|plate|A picture of a license plate from a man that visited purcell's home.|1|16|
+license plate picture|plate|A picture of a license plate from a man that visited purcell's home.|1|16|
 Geoffrey Silver|silver|An older man, with a vaguely slavic accent in a nice suit.|1|17|
+wireless Router|router|is a wireless router linking purcells laptop to a private network, the network feeds from a series of hidden cameras installed in the hotel’s rooms|1|14|
+powder compact|powder|a curiously heavy powder compact|1|14|
+normal desk drawer|drawer|I can only open this drawer with a warrant|1|14|

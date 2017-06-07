@@ -7,7 +7,7 @@ class Item
 {
 public:
 	Item(const std::string& name, const std::string& keyword, const std::string& description, bool carryable,const std::vector<int> locations);
-	~Item();
+	virtual ~Item();
 
 	void SetLocation(int ID)
 	{

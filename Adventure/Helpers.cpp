@@ -19,7 +19,7 @@ void Helpers::PrintSlowly(std::string text)
 	for(auto i = 0; i < len; ++i)
 	{
 		putchar(str[i]);
-		Sleep(50);
+		//Sleep(50);
 	}
 }
 

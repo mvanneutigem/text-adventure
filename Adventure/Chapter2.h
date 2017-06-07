@@ -8,7 +8,7 @@ public:
 	~Chapter2();
 
 	void Enter() override;
-	void Update(FileReader m_Reader) override;
+	void Update(FileReader& m_Reader) override;
 	void Exit() override;
 
 private:

@@ -60,11 +60,6 @@ int Parser::findWordInVector(const string& command, const vector<FileReader::wor
 
 	for_each(vector.begin(), vector.end(), lambda);//another lambda for no good reason
 
-	if (ID == -1)
-	{
-
-	}
-
 	return ID;
 }
 
@@ -98,7 +93,7 @@ Parser::commandType Parser::Parse(std::string command, std::vector<FileReader::w
 		//instead == make nouns also contain keys and then compare them to keys of locations, items etc.
 		
 		auto foundItems = findItemInVector(command, items);
-		for(auto i = 0; i < foundItems.size(); ++i)
+		for(unsigned int i = 0; i < foundItems.size(); ++i)
 		{
 			if (items[foundItems[i]]->IsAtLocation(Game::m_CurrentlocationID) || items[foundItems[i]]->IsCarrying())
 			{

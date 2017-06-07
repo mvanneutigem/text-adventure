@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Game.h"
 #include "Chapter2.h"
+#include "StateMachine.h"
 #include "Container.h"
 using namespace std;
 
@@ -50,11 +51,11 @@ void Chapter1::Enter()
 	Sleep(500);
 }
 
-void Chapter1::Update(FileReader m_Reader)
+void Chapter1::Update(FileReader& m_Reader)
 {
 	if (m_EnteredCrimeScene && m_gotPreliminaryReport)
 	{
-		auto CH2 = new Chapter2();
+		Chapter2* CH2 = new Chapter2();
 		Game::m_statemachine->ChangeState(CH2);
 	}
 

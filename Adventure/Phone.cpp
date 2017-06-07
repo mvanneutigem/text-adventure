@@ -5,12 +5,14 @@
 #include "Parser.h"
 #include "Game.h"
 #include "Chapter1.h"
+#include "StateMachine.h"
 using namespace std;
 
 
 Phone::Phone(const std::string& name, const std::string& keyword, const std::string& description, bool carryable, const std::vector<int> locations): 
 Item(name,keyword, description,carryable, locations)
 {
+	m_UnlockedGeoffrey = false;
 }
 
 
@@ -60,7 +62,6 @@ void Phone::Use(Parser p, FileReader f)
 			Helpers::PrintSlowly( "Fast travelling to " + f.getLocations()[index].GetKeyword());
 			Game::m_CurrentlocationID = index;
 
-			//add slow travelling option to walk outside and go into uber first.
 		}
 	}
 	else if (command.find("database") != command.npos && dynamic_cast<Chapter1*>(Game::m_statemachine->GetCurrentState()) == NULL)

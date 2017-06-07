@@ -1,6 +1,6 @@
 #include "Game.h"
 #include <iostream>
-#include "Parser.h"
+#include "Location.h"
 #include "Phone.h"
 #include "StateMachine.h"
 #include "Container.h"

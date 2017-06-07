@@ -5,11 +5,16 @@
 1|crawl
 1|continue
 1|jump
+1|leave
+1|proceed
 2|look
 2|inspect
 2|examine
 2|view
 3|talk
+3|accuse
+3|shout
+3|yell
 3|ask
 3|converse
 3|say

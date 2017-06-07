@@ -5,6 +5,10 @@
 #include "Phone.h"
 #include "Container.h"
 
+#define _CRTDBG_MAP_ALLOC  
+#include <stdlib.h>  
+#include <crtdbg.h>  
+
 using namespace std;
 
 
@@ -15,6 +19,15 @@ FileReader::FileReader()
 
 FileReader::~FileReader()
 {
+	for(auto i = 0; i < m_Items.size() ; ++i)
+	{
+		delete m_Items[i];
+	}
+	m_Items.clear();
+	m_NPCs.clear();
+	m_Locations.clear();
+	m_Nouns.clear();
+	m_Verbs.clear();
 }
 
 void FileReader::readInput(int startpos, int& endpos, string line, string& save, char separater)
@@ -87,10 +100,14 @@ void FileReader::readItems(const string& filename)
 					{
 						m_Items.push_back(new Container(name, keyword, description, locationsIndex));
 					}
+					else if(name  == "your phone")
+					{
+						m_Items.push_back(new Phone(name, keyword, description, isCarryable, locationsIndex));
+					}
 					else
 					{
 						auto i = new Item(name, keyword, description, isCarryable, locationsIndex);
-						m_Items.push_back(i);
+						m_Items.emplace_back(i);
 					}
 					
 					locationsIndex.clear();
@@ -247,17 +264,17 @@ void FileReader::readLocations(const string& filename)
 					++endpos;
 					back = line.substr(endpos);
 					++counter;
-					Location* location = nullptr;
 					if (m_Locations.size() < 14)
 					{
-						location = new Location(name, keyword, longDesc, stoi(left), stoi(right), stoi(forward), stoi(back), true);
+						Location location = Location(name, keyword, longDesc, stoi(left), stoi(right), stoi(forward), stoi(back), true);
+						m_Locations.push_back(location);
 					}
 					else
 					{
-						location = new Location(name, keyword, longDesc, stoi(left), stoi(right), stoi(forward), stoi(back));
+						Location location = Location(name, keyword, longDesc, stoi(left), stoi(right), stoi(forward), stoi(back));
+						m_Locations.push_back(location);
 					}
-					m_Locations.push_back(*location);
-					delete location;
+
 				}
 			}
 
@@ -269,24 +286,42 @@ void FileReader::readLocations(const string& filename)
 std::vector<Item*>& FileReader::getItems()
 {
 	return  m_Items;
+
 }
 
 const std::vector<Location>& FileReader::getLocations() const
 {
 	return m_Locations;
+
 }
 
 const std::vector<FileReader::word>& FileReader::getVerbs() const
 {
 	return m_Verbs;
+
 }
 
 const std::vector<FileReader::word>& FileReader::getNouns() const
 {
 	return m_Nouns;
+
 }
 
 const std::vector<NPC>& FileReader::getNPCs() const
 {
 	return m_NPCs;
+
+}
+
+void FileReader::Destroy()
+{
+	for (auto i = 0; i < m_Items.size(); ++i)
+	{
+		delete m_Items[i];
+	}
+	m_Items.clear();
+	m_NPCs.clear();
+	m_Locations.clear();
+	m_Nouns.clear();
+	m_Verbs.clear();
 }

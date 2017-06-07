@@ -149,6 +149,7 @@
     <ClCompile Include="Chapter1.cpp" />
     <ClCompile Include="Chapter2.cpp" />
     <ClCompile Include="Chapter3.cpp" />
+    <ClCompile Include="Chapter4.cpp" />
     <ClCompile Include="FileReader.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Helpers.cpp" />
@@ -164,6 +165,7 @@
     <ClInclude Include="Chapter1.h" />
     <ClInclude Include="Chapter2.h" />
     <ClInclude Include="Chapter3.h" />
+    <ClInclude Include="Chapter4.h" />
     <ClInclude Include="Container.h" />
     <ClInclude Include="FileReader.h" />
     <ClInclude Include="Game.h" />

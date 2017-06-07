@@ -1,11 +1,22 @@
 ﻿  Chapter1.cpp
   Chapter2.cpp
+  Chapter3.cpp
+  Chapter4.cpp
+  FileReader.cpp
   Game.cpp
+  Helpers.cpp
+  Item.cpp
+  Location.cpp
+  Main.cpp
+  NPC.cpp
+  Parser.cpp
+Parser.cpp(96): warning C4018: '<': signed/unsigned mismatch
   Phone.cpp
+  StateMachine.cpp
   Generating code
-  7 of 999 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    11 functions had inline decision re-evaluated but remain unchanged
+  137 of 1019 functions (13.4%) were compiled, the rest were copied from previous compilation.
+    29 functions were new in current compilation
+    52 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Adventure.vcxproj -> C:\Users\Marieke\Documents\DAE\semester 4\programming 4\week1\TextAdventure\Adventure\Release\Adventure.exe
   Adventure.vcxproj -> C:\Users\Marieke\Documents\DAE\semester 4\programming 4\week1\TextAdventure\Adventure\Release\Adventure.pdb (Full PDB)
