@@ -1,7 +1,3 @@
-
-//leak detection
-//#include <vld.h>
-
 #include <iostream>
 //#define _CRTDBG_MAP_ALLOC  
 //#include <stdlib.h>  
@@ -19,6 +15,7 @@ BOOL ctrl_handler(DWORD event)
 {
 	if (event == CTRL_CLOSE_EVENT)
 	{
+		//cleanup
 		delete statemachine;
 		game.m_Reader.Destroy();
 	}
